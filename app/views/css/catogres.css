@@ -1,0 +1,33 @@
+body {
+ 
+    font-family: "Tajawal", sans-serif;
+  }
+  
+
+.father{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    direction: rtl;
+    padding: 20px;
+    gap: 10px;
+}
+
+.left-g{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-g{
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:700px) {
+
+    .father{
+        display: flex;
+        flex-direction: column;
+    }
+}
