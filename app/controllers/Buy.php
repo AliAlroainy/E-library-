@@ -1,6 +1,6 @@
 <?php
 
-class PayForm{
+class Buy{
     function __construct()
     {
         
