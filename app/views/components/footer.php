@@ -142,6 +142,8 @@
       </div>
     </footer>
 
+
+
     <script src="app/views/js/search.js"></script>
     <script src="app/views/js/script.js"></script>
     <script src="app/views/js/mainOffer.js"></script>
