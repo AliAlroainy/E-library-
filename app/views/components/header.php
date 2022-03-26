@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="app/views/css/form.css" />
 
 
-
     <title>BookShop</title>
   </head>
   <body class="body">
@@ -103,7 +102,7 @@
       <div id="second-header" class="second-header">
         <div id="second-header" style="display: flex; width: 80vw; position: relative;">
 
-          <a href="cart.html" class="cart">
+          <a href="cart.php" class="cart">
             <div id="counter-cart" style="position: absolute;top: -5px; border-radius: 50%; left: 1px; width: 20px; height: 20px; background-color: red; color: #fff; display: flex; align-items: center; justify-content: center; visibility: hidden;">0</div>
             <img src="app/views/assets/svg/searc-cart.svg" width="24" height="24" alt="icon"/>
           </a>
@@ -131,7 +130,7 @@
           </div>
         </div>
         <div>
-          <a href="index.html" class="logo">
+          <a href="index.php" class="logo">
             <img
               src="app/views/assets/home.png"
               class="logg"
