@@ -30,7 +30,7 @@
                       <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                         
                         <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
+                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
       
                           <div style="display: flex; flex-direction: column; align-items: flex-start;">
                           <h3>انترخريستوس (كتاب الكتروني)</h3>
@@ -71,7 +71,7 @@
                           <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                             
                             <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                              <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
+                              <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
           
                               <div style="display: flex; flex-direction: column; align-items: flex-start;">
                               <h3>انترخريستوس (كتاب الكتروني)</h3>
@@ -112,7 +112,7 @@
                       <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                         
                         <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
+                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
       
                           <div style="display: flex; flex-direction: column; align-items: flex-start;">
                           <h3>انترخريستوس (كتاب الكتروني)</h3>
