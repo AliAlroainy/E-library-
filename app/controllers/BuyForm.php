@@ -1,6 +1,6 @@
 <?php
 
-class Cart{
+class PayForm{
     function __construct()
     {
         
