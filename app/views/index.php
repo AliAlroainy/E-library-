@@ -144,7 +144,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html">
+            <a href="details.php">
               <img class="mainOffer-img" src="app/views/assets/books/1.jpg"
             /></a>
           </div>
@@ -196,7 +196,7 @@
         <!--start card ------------------>
         <div class="mainOffer-card">
           <div>
-            <a href="details.html">
+            <a href="details.php">
               <img class="mainOffer-img" src="app/views/assets/books/5.jpg"
             /></a>
           </div>
@@ -247,7 +247,7 @@
         <!--------------start card --------------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html">
+            <a href="details.php">
               <img class="mainOffer-img" src="app/views/assets/books/4.jpg" />
             </a>
           </div>
@@ -298,7 +298,7 @@
         <!--------------start card --------------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html">
+            <a href="details.php">
               <img class="mainOffer-img" src="app/views/assets/books/5.jfif" />
             </a>
           </div>
@@ -351,7 +351,7 @@
         <!-------------start card -------------------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -436,7 +436,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -484,7 +484,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -532,7 +532,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -580,7 +580,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -628,7 +628,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -703,7 +703,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -751,7 +751,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -799,7 +799,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -847,7 +847,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -895,7 +895,7 @@
             <!--------------------------start card ---------------->
             <div class="mainOffer-card">
               <div>
-                <a href="details.html"
+                <a href="details.php"
                   ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
                 /></a>
               </div>
@@ -971,7 +971,7 @@
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
-              <a href="details.html"
+              <a href="details.php"
                 ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
@@ -1019,7 +1019,7 @@
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
-              <a href="details.html"
+              <a href="details.php"
                 ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
@@ -1067,7 +1067,7 @@
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
-              <a href="details.html"
+              <a href="details.php"
                 ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
@@ -1115,7 +1115,7 @@
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
-              <a href="details.html"
+              <a href="details.php"
                 ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
@@ -1163,7 +1163,7 @@
           <!--------------------------start card ---------------->
           <div class="mainOffer-card">
             <div>
-              <a href="details.html"
+              <a href="details.php"
                 ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
@@ -1240,7 +1240,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -1288,7 +1288,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -1336,7 +1336,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -1384,7 +1384,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -1432,7 +1432,7 @@
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
-            <a href="details.html"
+            <a href="details.php"
               ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
             /></a>
           </div>
@@ -1509,7 +1509,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1557,7 +1557,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1605,7 +1605,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1653,7 +1653,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1701,7 +1701,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1777,7 +1777,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1825,7 +1825,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1873,7 +1873,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1921,7 +1921,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
@@ -1969,7 +1969,7 @@
       <!--------------------------start card ---------------->
       <div class="mainOffer-card">
         <div>
-          <a href="details.html"
+          <a href="details.php"
             ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
           /></a>
         </div>
