@@ -46,7 +46,7 @@
             <div style="font-size: 0.8rem">ادخل لحسابك او سجل الان</div>
           </div>
 
-          <a href="index.php" class="item">
+          <a href="index" class="item">
             <div>
               <img src="app/views/assets/svg/star.svg" width="20" height="20" alt="icon" />
 
@@ -54,7 +54,7 @@
             <div>الرئيسية</div>
           </a>
 
-          <a href="about.php" class="item">
+          <a href="about" class="item">
             <div>
               <img src="app/views/assets/svg/whoisus.svg" width="20" height="20" alt="icon" />
 
@@ -102,7 +102,7 @@
       <div id="second-header" class="second-header">
         <div id="second-header" style="display: flex; width: 80vw; position: relative;">
 
-          <a href="cart.php" class="cart">
+          <a href="cart" class="cart">
             <div id="counter-cart" style="position: absolute;top: -5px; border-radius: 50%; left: 1px; width: 20px; height: 20px; background-color: red; color: #fff; display: flex; align-items: center; justify-content: center; visibility: hidden;">0</div>
             <img src="app/views/assets/svg/searc-cart.svg" width="24" height="24" alt="icon"/>
           </a>
@@ -130,7 +130,7 @@
           </div>
         </div>
         <div>
-          <a href="index.php" class="logo">
+          <a href="index" class="logo">
             <img
               src="app/views/assets/home.png"
               class="logg"
@@ -148,7 +148,7 @@
     <div id="id01" class="modal">
       <form
         class="modal-content animate"
-        action="/action_page.php"
+        action="/action_page"
         method="post"
       >
         <div class="container">
@@ -200,7 +200,7 @@
     <div id="id02" class="modal2">
       <form
         class="modal-content animate"
-        action="/action_page.php"
+        action="/action_page"
         method="post"
       >
         <div class="container">

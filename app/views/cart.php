@@ -185,7 +185,7 @@
                        <h6> بالضغط على تاكيد الشراء فانت توافق <a style="text-decoration: none;" href="#">على الشروط والاحكام</a> <a style="text-decoration: none;" href="#">وسياسة الخصوصية</a></h6> 
                       </div>
                       <div>
-                     <a href="form.php"><button style="width: 100%;">تاكيد الشراء</button></a>  
+                     <a href="form"><button style="width: 100%;">تاكيد الشراء</button></a>  
                       </div>
                     </div>
                   </div>
