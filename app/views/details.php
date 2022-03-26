@@ -6,19 +6,19 @@
     <div class="slideshow-container">
       <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="assets/slid1.jpg" style="width: 100%; height: 300px;" />
+        <img src="app/views/assets/slid1.jpg" style="width: 100%; height: 300px;" />
         <div class="text">Caption Text</div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="assets/slid2.jpg" style="width: 100%; height: 300px;" />
+        <img src="app/views/assets/slid2.jpg" style="width: 100%; height: 300px;" />
         <div class="text">Caption Two</div>
       </div>
 
       <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="assets/slid3.jpg" style="width: 100%; height: 300px;" />
+        <img src="app/views/assets/slid3.jpg" style="width: 100%; height: 300px;" />
         <div class="text">Caption Three</div>
       </div>
 
@@ -68,13 +68,13 @@
       <div class="book-img-dtl">
 
         <div>
-          <img onclick="img()" src="assets/books/1.jpg" width="200" height="300" alt="hi here" />
+          <img onclick="img()" src="app/views/assets/books/1.jpg" width="200" height="300" alt="hi here" />
         </div>
 
         <div>
 
           <di>
-            <img src="assets/books/1.jpg" width="30" height="40" />
+            <img src="app/views/assets/books/1.jpg" width="30" height="40" />
           </di>
 
         </div>
@@ -105,10 +105,10 @@
         <div>
           <small>المراجعات (15)</small>
           <span> 
-            <img src="assets/goldstar.png" width="15" height="15" />
-            <img src="assets/goldstar.png" width="15" height="15" />
-            <img src="assets/goldstar.png" width="15" height="15" />
-            <img src="assets/goldstar.png" width="15" height="15" />
+            <img src="app/views/assets/goldstar.png" width="15" height="15" />
+            <img src="app/views/assets/goldstar.png" width="15" height="15" />
+            <img src="app/views/assets/goldstar.png" width="15" height="15" />
+            <img src="app/views/assets/goldstar.png" width="15" height="15" />
           </span>
         </div>
         <div >
@@ -126,7 +126,7 @@
         </div>
         <div style="display:flex; flex-direction: row; justify-content: space-between;width: 100%;">
           <div >
-            <input type="radio" checked> <samp>كتاب الكتروني</samp> <samp> <img src="assets/svg/question.svg" width="10" height="10" />
+            <input type="radio" checked> <samp>كتاب الكتروني</samp> <samp> <img src="app/views/assets/svg/question.svg" width="10" height="10" />
             </samp>
           </div>
           <div class="mainOffer-price">
@@ -164,25 +164,25 @@
         </div>
         <div style="display: flex; flex-direction: row; padding: 5px;align-items: center; gap: 3px;">
           <input type="number" value="1" style="width: 30px; height: 30px; border:  none; background-color: rgb(240, 238, 238); border-radius: 5px; box-shadow: 0px 0px 2px 1px rgba(177, 176, 176, 0.692);" >
-        <button style="height: 30px;display: flex; align-items: center; justify-content: center;box-shadow: 0px 0px 2px 1px rgba(177, 176, 176, 0.692);">اضافة الى السلة  <img src="assets/svg/cart-1.svg" width="20" height="20" /> </button>
+        <button style="height: 30px;display: flex; align-items: center; justify-content: center;box-shadow: 0px 0px 2px 1px rgba(177, 176, 176, 0.692);">اضافة الى السلة  <img src="app/views/assets/svg/cart-1.svg" width="20" height="20" /> </button>
         </div>
         <div style="background-color: rgb(238, 238, 238); display: flex;flex-wrap: wrap; gap: 10px; padding: 10px;">
           <div>
-            <img src="assets/svg/secury.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/secury.svg" width="10" height="10" />
             تسوق آمن
-            <img src="assets/svg/question.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/question.svg" width="10" height="10" />
 
           </div>
           <div>
-            <img src="assets/svg/secury.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/secury.svg" width="10" height="10" />
             اصلي ومضمون
-            <img src="assets/svg/question.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/question.svg" width="10" height="10" />
 
           </div>
           <div>
-            <img src="assets/svg/secury.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/secury.svg" width="10" height="10" />
             شحن سريع ومجاني
-            <img src="assets/svg/question.svg" width="10" height="10" />
+            <img src="app/views/assets/svg/question.svg" width="10" height="10" />
           </div>
         </div>
         <br/>
@@ -190,15 +190,15 @@
         <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;">
           <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
             مشاركة
-            <img src="assets/svg/share_black_24dp.svg" width="15" height="15" style="margin-right: 10px;" />
+            <img src="app/views/assets/svg/share_black_24dp.svg" width="15" height="15" style="margin-right: 10px;" />
           </button>
             <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
               المفضلة
-              <img src="assets/svg/favorite_black_24dp (1).svg" width="15" height="15" style="margin-right: 10px;" />
+              <img src="app/views/assets/svg/favorite_black_24dp (1).svg" width="15" height="15" style="margin-right: 10px;" />
             </button>
               <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
                 مقارنة
-              <img src="assets/svg/card-arraw.svg" width="15" height="15" style="margin-right: 10px;" />
+              <img src="app/views/assets/svg/card-arraw.svg" width="15" height="15" style="margin-right: 10px;" />
               </button>
         </div>
         <br/>
@@ -206,15 +206,15 @@
         <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly;">
           <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
             مشاركة
-            <img src="assets/svg/share_black_24dp.svg" width="15" height="15" style="margin-right: 10px;" />
+            <img src="app/views/assets/svg/share_black_24dp.svg" width="15" height="15" style="margin-right: 10px;" />
           </button>
             <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
               المفضلة
-              <img src="assets/svg/favorite_black_24dp (1).svg" width="15" height="15" style="margin-right: 10px;" />
+              <img src="app/views/assets/svg/favorite_black_24dp (1).svg" width="15" height="15" style="margin-right: 10px;" />
             </button>
               <button style="width: 30%;color: #333; background-color: #fff; display: flex; justify-content: center; box-shadow: 0px 0px 2px 1px rgba(51, 51, 51, 0.603);">
                 مقارنة
-                <img src="assets/svg/card-arraw.svg" width="15" height="15" style="margin-right: 10px;" />
+                <img src="app/views/assets/svg/card-arraw.svg" width="15" height="15" style="margin-right: 10px;" />
               </button>
         </div>
 
@@ -362,7 +362,7 @@
           <div class="mainOffer-card">
             <div>
               <a href="details.html"
-                ><img class="mainOffer-img" src="assets/books/3.jpg"
+                ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
             <div class="mainOffer-title">
@@ -386,7 +386,7 @@
           <div class="mainOffer-card">
             <div>
               <a href="details.html"
-                ><img class="mainOffer-img" src="assets/books/3.jpg"
+                ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
             <div class="mainOffer-title">
@@ -410,7 +410,7 @@
           <div class="mainOffer-card">
             <div>
               <a href="details.html"
-                ><img class="mainOffer-img" src="assets/books/3.jpg"
+                ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
             <div class="mainOffer-title">
@@ -434,7 +434,7 @@
           <div class="mainOffer-card">
             <div>
               <a href="details.html"
-                ><img class="mainOffer-img" src="assets/books/3.jpg"
+                ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
               /></a>
             </div>
             <div class="mainOffer-title">
