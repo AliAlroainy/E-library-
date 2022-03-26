@@ -42,44 +42,44 @@
       <div class="divs-dady" >
         <img src="app/views/assets/svg/left.svg" style="cursor: pointer;" />
          <!--      start card   -------->
-        <a  href="categories.html" class="card-dv" >
+        <a  href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/religion.svg" width="40" height="40" /> </div>
           <div style="color:#5E2F26 ;">دين</div> 
         </a>
         <!--      end card   -------->
 
         <!--      start card   -------->
-        <a href="categories.html" class="card-dv" >
+        <a href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/history.svg" width="40" height="40" /> </div>
           <div style="color: #F67828;">تاريخ</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a href="categories.html" class="card-dv" >
+        <a href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/stories.svg" width="40" height="40" /></div>
           <div style="color: #76689A;" >روايات</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="categories.html" class="card-dv" >
+        <a id="crl" href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/poliyes.svg" width="40" height="40" /></div>
           <div style="color: #BC4077;">سياسية</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="categories.html" class="card-dv" >
+        <a id="crl" href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/ecommnoimic.svg" width="40" height="40" /></div>
           <div style="color: #0089B6 ;">اقتصاد</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="categories.html" class="card-dv" >
+        <a id="crl" href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/cook.svg" width="100%" height="40" /></div>
           <div style="color: #7DB344;">طبخ</div> 
         </a>
         <!--      end card   -------->
         <!--      start card   -------->
-        <a id="crl" href="categories.html" class="card-dv" >
+        <a id="crl" href="categories.php" class="card-dv" >
           <div><img src="app/views/assets/svg/careing.svg" width="40" height="40" /></div>
           <div style=" color:#9C223F ;">تربية</div> 
         </a>
@@ -132,7 +132,7 @@
     <div class="mainOffer-container">
       <div class="latst-offer">
         <h1> العروض الحالية</h1> 
-        <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+        <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
       </div>
       
       <div class="lastoffer-cards">
@@ -422,7 +422,7 @@
         <div id="1" class="mainOffer-container">
           <div class="latst-offer">
             <h1>الكتب الدينية</h1>
-            <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+            <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
 
           </div>
     
@@ -690,7 +690,7 @@
         <div id="2" class="mainOffer-container">
           <div class="latst-offer">
             <h1>الكتب التاريخية</h1>
-            <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+            <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
           </div>
     
           <div class="lastoffer-cards">
@@ -957,7 +957,7 @@
       <div id="3" class="mainOffer-container">
         <div class="latst-offer">
           <h1>السياسية</h1>
-          <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+          <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
 
         </div>
   
@@ -1226,7 +1226,7 @@
     <div id="4" class="mainOffer-container">
       <div class="latst-offer">
         <h1>الاقتصاد</h1>
-        <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+        <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
 
       </div>
 
@@ -1495,7 +1495,7 @@
   <div id="5" class="mainOffer-container">
     <div class="latst-offer">
       <h1>الطبخ</h1>
-      <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+      <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
 
     </div>
 
@@ -1763,7 +1763,7 @@
   <div id="6" class="mainOffer-container">
     <div class="latst-offer">
       <h1>افضل الروايات الرومانسية</h1>
-      <a style="color: #0089B6; text-decoration: none;" href="categories.html"><h3>عرض الكل</h3></a>
+      <a style="color: #0089B6; text-decoration: none;" href="categories.php"><h3>عرض الكل</h3></a>
 
     </div>
 
