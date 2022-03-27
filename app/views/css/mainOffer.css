@@ -1,0 +1,92 @@
+body {
+ 
+    font-family: "Tajawal", sans-serif;
+  }
+  
+
+.mainOffer-container{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    direction: rtl;
+}
+.lastoffer-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: relative;
+}
+.latst-offer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mainOffer-timer{
+    border: 1px solid rgb(5, 224, 5);
+    border-radius: 20px;
+    padding: 5px;
+    
+}
+.mainOffer-card{
+    width: 200px;   
+    border: rgba(236, 234, 234, 0.836) solid 1px;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative
+    
+}
+.mainOffer-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mainOffer-img{
+
+    top: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.mainOffer-price {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 13px;
+    margin: 3px;
+}
+
+.mainOffer-another{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mainOffer-icon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+}
+
+@media (max-width: 880px) { 
+
+    .lastoffer-cards {
+        display: flex;
+        flex-wrap: wrap;
+  
+    }
+
+    .mainOffer-card{
+        margin: 20px;
+     }
+}

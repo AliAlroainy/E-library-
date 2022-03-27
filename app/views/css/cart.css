@@ -1,0 +1,100 @@
+body {
+ 
+    font-family: "Tajawal", sans-serif;
+  }
+  
+
+.cart-container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100vh;
+    padding: 10px;
+   margin-top: 60px;
+    align-items: center;
+}
+
+.c-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    direction: rtl;
+    align-items: center;
+    width: 100%;
+ 
+}
+
+.c-main {
+    display: flex;
+    flex-direction: row;
+    direction: rtl;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.left-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 10px;
+
+}
+
+.card-l{
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    box-shadow: 0px 0px 3px 1px rgba(51, 51, 51, 0.26);
+    padding: 20px;
+}
+
+.right-cart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.buy-cart{
+ margin: 10px;
+ padding: 20px;
+ width: 300px;
+ height: 50vh;
+ box-shadow: 0px 0px 5px 1px rgba(212, 209, 209, 0.568);
+ border: none;
+ display: flex;
+ flex-direction: column;
+}
+
+
+.hid {
+    height: 500px; 
+    width: 100%;
+    display: none;
+
+}
+
+@media (max-width: 800px) { 
+
+    .c-main  {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+    }
+    .hid {
+        display: block;
+    }
+
+
+    
+}
