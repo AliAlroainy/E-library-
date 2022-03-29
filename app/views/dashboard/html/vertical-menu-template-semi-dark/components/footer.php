@@ -7,7 +7,7 @@
       © <script>
       document.write(new Date().getFullYear())
       </script>
-      , made with ❤️ by <a href="https://themeselection.com/" target="_blank" class="footer-link fw-bolder">ThemeSelection</a>
+      , made with ❤️ by <a href="#" class="footer-link fw-bolder">Ali Alroainy</a>
     </div>
     <div>
       
