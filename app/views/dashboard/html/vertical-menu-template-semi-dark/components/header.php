@@ -16,7 +16,7 @@
 =========================================================
  -->
 <!-- beautify ignore:start -->
-<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-semi-dark" data-assets-path="../../assets/" data-template="vertical-menu-template-semi-dark">
+<html lang="en" class="light-style layout-navbar-fixed layout-menu-fixed " dir="ltr" data-theme="theme-semi-dark" data-assets-path="app/views/dashboard/assets/" data-template="vertical-menu-template-semi-dark">
 
   
 <!--  , Sat, 26 Mar 2022 16:44:24 GMT -->
@@ -41,29 +41,29 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="app/views/dashboard/assets/vendor/fonts/boxicons.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/fonts/fontawesome.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/fonts/flag-icons.css" />
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-semi-dark.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="../../assets/css/demo.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/css/rtl/theme-semi-dark.css" class="template-customizer-theme-css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/css/demo.css" />
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/libs/typeahead-js/typeahead.css" />
+    <link rel="stylesheet" href="app/views/dashboard/assets/vendor/libs/apex-charts/apex-charts.css" />
 
     <!-- Page CSS -->
     
     <!-- Helpers -->
-    <script src="../../assets/vendor/js/helpers.js"></script>
+    <script src="app/views/dashboard/assets/vendor/js/helpers.js"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="../../assets/vendor/js/template-customizer.js"></script>
+    <script src="app/views/dashboard/assets/vendor/js/template-customizer.js"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="../../assets/js/config.js"></script>
+    <script src="app/views/dashboard/assets/js/config.js"></script>
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
@@ -1239,7 +1239,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="app/views/dashboard/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1275,7 +1275,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="../../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="app/views/dashboard/assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1311,7 +1311,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="../../assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="app/views/dashboard/assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1347,7 +1347,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="../../assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="app/views/dashboard/assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1365,7 +1365,7 @@
                     <div class="d-flex">
                       <div class="flex-shrink-0 me-3">
                         <div class="avatar">
-                          <img src="../../assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle">
+                          <img src="app/views/dashboard/assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle">
                         </div>
                       </div>
                       <div class="flex-grow-1">
@@ -1411,7 +1411,7 @@
           <li class="nav-item navbar-dropdown dropdown-user dropdown">
             <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
               <div class="avatar avatar-online">
-                <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                <img src="app/views/dashboard/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
               </div>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
@@ -1420,7 +1420,7 @@
                   <div class="d-flex">
                     <div class="flex-shrink-0 me-3">
                       <div class="avatar avatar-online">
-                        <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
+                        <img src="app/views/dashboard/assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle">
                       </div>
                     </div>
                     <div class="flex-grow-1">
