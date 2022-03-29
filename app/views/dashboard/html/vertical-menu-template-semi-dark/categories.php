@@ -1,6 +1,6 @@
 
 
-      <?php include "app/views/dashboard/components/header.php" ?>
+      <?php include "app/views/dashboard/html/vertical-menu-template-semi-dark/components/header.php" ?>
 
 
       <!-- Content wrapper -->
@@ -881,7 +881,7 @@
 
          
 
-<?php include "app/views/dashboard/components/footer.php" ?>
+          <?php include "app/views/dashboard/html/vertical-menu-template-semi-dark/components/footer.php" ?>
 
          
 
