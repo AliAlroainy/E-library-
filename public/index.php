@@ -1,8 +1,21 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use coding\app\controllers\AuthorsController;
 use coding\app\controllers\Home;
+use coding\app\controllers\Cart;
+use coding\app\controllers\Categories;
+use coding\app\controllers\Details;
+use coding\app\controllers\Form;
+use coding\app\controllers\About;
+use coding\app\controllers\Contact;
+use coding\app\controllers\Help;
+use coding\app\controllers\Policy;
+
+
+
+
+
+use coding\app\controllers\AuthorsController;
 use coding\app\controllers\CategoriesController;
 use coding\app\controllers\OffersController;
 use coding\app\controllers\PublishersController;
@@ -26,9 +39,23 @@ $system=new AppSystem($config);
 /** web routes  */
 
 Router::get('/',[Home::class,'show']);
+Router::get('/cart',[Cart::class,'show']);
+Router::get('/categories',[Categories::class,'show']);
+Router::get('/details',[Details::class,'show']);
+Router::get('/about',[About::class,'show']);
+Router::get('/payment',[Form::class,'show']);
+Router::get('/contact',[Contact::class,'show']);
+Router::get('/help',[Help::class,'show']);
+Router::get('/policy',[Policy::class,'show']);
 
 
-Router::get('/categories',[CategoriesController::class,'listAll']);
+
+
+
+
+
+
+Router::get('/Dcategories',[CategoriesController::class,'listAll']);
 Router::get('/add_category',[CategoriesController::class,'create']);
 Router::get('/edit_category/{id}',[CategoriesController::class,'edit']);
 Router::get('/remove_category/{id}/{name}',[CategoriesController::class,'remove']);
