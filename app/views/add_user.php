@@ -577,110 +577,32 @@
           <div class="container-xxl flex-grow-1 container-p-y">
             
             
-<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
+<h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> اضافة مستخدم</h4>
 
 
 
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">انشاء   عرض  جديد</h5>
-  <form class="card-body" action="/save_offer" method="POST" enctype="multipart/form-data">
+  <h5 class="card-header">اضافة مستخدم جديد</h5>
+  <form class="card-body" action="/save_user" method="POST" enctype="multipart/form-data">
     
     <div class="row g-3">
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">اسم العرض</label>
-        <input name="category_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-username">اسم المستخدم</label>
+        <input name="user_name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
-      <div class="col-md-3">
-        <label class="form-label" for="multicol-email">تاريخ بداية العرض</label>
-        <div class="col-md-10">
-            <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
-          </div>
-      </div>
-      <div class="col-md-3">
-        <label class="form-label" for="multicol-email">تاريخ نهاية العرض</label>
-        <div class="col-md-10">
-            <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
-          </div>
-      </div>
-      
-      
-    </div>
-    <div class="row g-3">
-
-    <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-              <label class="form-check-label" for="inlineRadio2">حسب الكتاب</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-              <label class="form-check-label" for="inlineRadio2">حسب القسم</label>
-            </div>
-            <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" />
-              <label class="form-check-label" for="inlineRadio2">الكل</label>
-            </div>
-
-    </div>
-
-
-
-    <?php 
-        for($i=0;$i<10;$i++){
-            echo "<p class='remove' data-id=$i>click here</p>";
-        }
-    ?>
-    <div class="row g-3">
-      <div class="col-md-4">
-        <label class="form-label" for="multicol-username">الكتب المحددة</label>
-        <div class="row mb-3 select2-primary">
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">صورة المستخدم</label>
+        <div class="input-group input-group-merge">
+          <input  name="image" type="file"  class="form-control"  aria-describedby="multicol-email2" />
           
-          <div class="col-sm-9">
-            <select  name="selected_books[]"disabled id="multicol-language" class="select2 form-select" multiple>
-              <option value="en" selected>English</option>
-              <option value="fr" selected>French</option>
-              <option value="de">German</option>
-              <option value="pt">Portuguese</option>
-            </select>
-          </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <label class="form-label" for="multicol-username">الكتب المحددة</label>
-        <div class="row mb-3 select2-primary">
-          
-          <div class="col-sm-9">
-            <select  name="selected_cats" disabled id="multicol-language" class="select2 form-select" multiple>
-             
-    <?php
-    foreach($params['categories'] as $cats){ ?>
-<option value="<?= $cats['id'];?>"><?= $cats['name'] ;?></option>
-
-   <?php  } 
-    ?>
-
-
-            </select>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <label class="form-label" for="multicol-email">تاريخ بداية العرض</label>
-        <div class="col-md-10">
-            <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
-          </div>
-      </div>
-      <div class="col-md-3">
-        <label class="form-label" for="multicol-email">تاريخ نهاية العرض</label>
-        <div class="col-md-10">
-            <input class="form-control" type="date" value="2021-06-18" id="html5-date-input" />
-          </div>
-      </div>
-      
+     
       <div class="col-md-6">
         <div class="form-password-toggle">
-          <label class="form-label" for="multicol-confirm-password">تفعيل القسم</label>
+          <label class="form-label" for="multicol-confirm-password">تفعيل الصلاحيات</label>
           <div class="input-group input-group-merge">
           <label class="switch">
               <input name="is_active" value=1 type="checkbox" checked class="switch-input" />
@@ -792,16 +714,7 @@
 
   <!-- Page JS -->
   <script src="assets/js/form-layouts.js"></script>
-<script>
-
-    $(document).ready(function(){
-
-
-     
-        
-
-    });
-</script>  
+  
 </body>
 
 

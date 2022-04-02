@@ -576,7 +576,7 @@
           <div class="container-xxl flex-grow-1 container-p-y">
 
 
-            <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
+            <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> المستخدمين</h4>
 
            
 
@@ -590,7 +590,7 @@
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>اسم القسم</th>
+            <th>اسم المستخدم</th>
             <th>الصورة</th>
             <th>الحالة</th>
             
@@ -600,15 +600,15 @@
         <tbody>
        
          
-         <?php foreach($params as $category){?>
+         <?php foreach($params as $user){?>
           <tr>
             
-            <td><?= $category['name'];?></td>
+            <td><?= $user['user_name'];?></td>
             <td>
-              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $category['image'];?>">
+              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $user['image'];?>">
             </td>
             <td>
-            <?php if($category['is_active']==1) {?>    
+            <?php if($user['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>
             <?php }
             else {?>
@@ -616,7 +616,7 @@
             <?php } ?>
             </td>
             <td>
-            <a href="/edit_category/<?php echo $category['id'];?>" class="btn btn-icon btn-outline-dribbble">
+            <a href="/edit_user/<?php echo $user['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
               <button type="button" class="btn btn-icon btn-outline-dribbble">
