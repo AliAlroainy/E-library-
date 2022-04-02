@@ -16,6 +16,7 @@ use coding\app\controllers\Policy;
 
 
 use coding\app\controllers\AuthorsController;
+use coding\app\controllers\BookController;
 use coding\app\controllers\CategoriesController;
 use coding\app\controllers\OffersController;
 use coding\app\controllers\PublishersController;
@@ -69,6 +70,15 @@ Router::get('/edit_offer/{id}',[OffersController::class,'edit']);
 Router::get('/remove_offer/{id}/{name}',[OffersController::class,'remove']);
 Router::post('/save_offer',[OffersController::class,'store']);
 Router::post('/update_offer',[OffersController::class,'update']);
+
+/** book routes  */
+Router::get('/Dbook',[BookController::class,'listAll']);
+Router::get('/add_book',[BookController::class,'create']);
+Router::get('/edit_book/{id}',[BookController::class,'edit']);
+Router::get('/remove_book/{id}/{name}',[BookController::class,'remove']);
+Router::post('/save_book',[BookController::class,'store']);
+Router::post('/update_book',[BookController::class,'update']);
+
 
 /** end of web routes */
 
