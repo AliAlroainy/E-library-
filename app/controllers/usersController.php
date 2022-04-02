@@ -1,47 +1,86 @@
 <?php
+
 namespace coding\app\controllers;
 
 use coding\app\models\User;
 
 class UsersController extends Controller{
 
-    function newUser(){
-        $this->view('new_user');
+    function listAll($parameters=null){
+
+        $parameters['status'];
+        $Users=new User();
+        $allUsers=$Users->getAll();
+        //print_r($allUsers);
+
+        $this->view('list_users',$allUsers);
+
+    }
+    function create(){
+        $this->view('add_user');
+
     }
 
-        public function show(){
-            $this->view('view_user');
-
-    }
-
-    public function saveUser(){
-
-        //print_r($_POST);
+    function store(){
+        // print_r($_POST);
+        // print_r($_FILES);
         $user=new User();
-        $user->name=$_POST['name'];
-        $user->email=$_POST['email'];
-        $user->password=md5($_POST['password']);
-        $user->is_active=isset($_POST['is_active'])?1:0;
-        $user->role_id=1;
+        
+        $user->name=$_POST['user_name'];
+        $imageName=$this->uploadFile($_FILES['image']);
+
+        $user->image=$imageName!=null?$imageName:"default.png";
+        $user->created_by=1;
+        $user->is_active=$_POST['is_active'];
+
         $user->save();
-        if($user->save())
+        $this->view('add');
+
+    }
+    function edit($params=[]){
+
+        $cat=new user();
+        $result=$cat->getSingleRow($params['id']);
+        $this->view('edit_user',$result);
         
-        $this->view('feedback',['success'=>'data inserted successful']);
-        else 
-        $this->view('feedback',['danger'=>'can not add data']);
+
+    }
+    function update(){
+
+    }
+    public function remove($params=[]){
+        echo "remove function";
 
     }
 
-    public function register(){
-        $this->view("new_user");
+
+    public static function uploadFile(array $imageFile): string
+    {
+        // check images direction
+        if (!is_dir(__DIR__ . '/../../public/images')) {
+            mkdir(__DIR__ . '/../../public/images');
+        }
+
+        if ($imageFile && $imageFile['tmp_name']) {
+            $image = explode('.', $imageFile['name']);
+            $imageExtension = end($image);
+
+            $imageName = uniqid(). "." . $imageExtension;
+            $imagePath =  __DIR__ . '/../../public/images/' . $imageName;
+
+            move_uploaded_file($imageFile['tmp_name'], $imagePath);
+
+            return $imageName;
+        }
+
+        return null;
     }
 
-    public function delete(){
-        
-    }
+    
 
 
 
 
 }
+
 ?>

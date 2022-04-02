@@ -13,7 +13,7 @@ use coding\app\controllers\Policy;
 
 
 
-
+use coding\app\controllers\UsersController;
 use coding\app\controllers\PublisherController;
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\BooksController;
@@ -22,7 +22,6 @@ use coding\app\controllers\OffersController;
 use coding\app\controllers\PublishersController;
 use coding\app\system\AppSystem;
 use coding\app\system\Router;
-use coding\app\controllers\UsersController;
 use Dotenv\Dotenv;
 
 $dotenv = Dotenv::createImmutable(dirname(__DIR__));//createImmutable(__DIR__);
@@ -98,6 +97,14 @@ Router::get('/edit_publisher/{id}',[PublisherController::class,'edit']);
 Router::get('/remove_publisher/{id}/{name}',[PublisherController::class,'remove']);
 Router::post('/save_publisher',[PublisherController::class,'store']);
 Router::post('/update_publisher',[PublisherController::class,'update']);
+
+/** Users routes  */
+Router::get('/Duser',[UsersController::class,'listAll']);
+Router::get('/add_user',[UsersController::class,'create']);
+Router::get('/edit_user/{id}',[UsersController::class,'edit']);
+Router::get('/remove_user/{id}/{name}',[UsersController::class,'remove']);
+Router::post('/save_user',[UsersController::class,'store']);
+Router::post('/update_user',[UsersController::class,'update']);
 
 
 /** end of web routes */
