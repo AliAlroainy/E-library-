@@ -139,6 +139,19 @@
 </li>
 
   <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الناشرين</li>
+  <li class="menu-item">
+  <a href="/add_publisher" class="menu-link">
+    <div>اضافة دار نشر</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/Dpublisher" class="menu-link">
+    <div>عرض دور النشر</div>
+  </a>
+</li>
+
+  <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العروض</li>
   <li class="menu-item">
   <a href="/add_offer" class="menu-link">
