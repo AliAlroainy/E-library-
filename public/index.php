@@ -12,7 +12,7 @@ use coding\app\controllers\Help;
 use coding\app\controllers\Policy;
 
 
-
+use coding\app\models\CitiesController;
 use coding\app\controllers\UsersController;
 use coding\app\controllers\PublisherController;
 use coding\app\controllers\AuthorsController;
@@ -106,6 +106,14 @@ Router::get('/remove_user/{id}/{name}',[UsersController::class,'remove']);
 Router::post('/save_user',[UsersController::class,'store']);
 Router::post('/update_user',[UsersController::class,'update']);
 
+
+/** cities routes  */
+Router::get('/Dcities',[CitiesController::class,'listAll']);
+Router::get('/add_cities',[CitiesController::class,'create']);
+Router::get('/edit_cities/{id}',[CitiesController::class,'edit']);
+Router::get('/remove_cities/{id}/{name}',[CitiesController::class,'remove']);
+Router::post('/save_cities',[CitiesController::class,'store']);
+Router::post('/update_cities',[CitiesController::class,'update']);
 
 /** end of web routes */
 

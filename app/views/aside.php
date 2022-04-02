@@ -151,6 +151,20 @@
   </a>
 </li>
 
+
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العناوين</li>
+  <li class="menu-item">
+  <a href="/add_cities" class="menu-link">
+    <div>اضافة مدينة</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/Dcities" class="menu-link">
+    <div>عرض المدينة</div>
+  </a>
+</li>
+
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العروض</li>
   <li class="menu-item">
