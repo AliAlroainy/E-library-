@@ -111,6 +111,7 @@
     <div>طلبات ملغية</div>
   </a>
 </li>
+
   <!-- Misc -->
   <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة الكتب</li>
   <li class="menu-item">
@@ -121,6 +122,32 @@
 <li class="menu-item">
   <a href="/Dbook" class="menu-link">
     <div>عرض الكتب</div>
+  </a>
+</li>
+
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة المؤلفين</li>
+  <li class="menu-item">
+  <a href="/add_author" class="menu-link">
+    <div>اضافة مؤلف</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/Dauthor" class="menu-link">
+    <div>عرض المؤلفين</div>
+  </a>
+</li>
+
+  <!-- Misc -->
+  <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة العروض</li>
+  <li class="menu-item">
+  <a href="/add_offer" class="menu-link">
+    <div>اضافة عرض</div>
+  </a>
+</li>
+<li class="menu-item">
+  <a href="/Doffers" class="menu-link">
+    <div>قائمة العروض </div>
   </a>
 </li>
    <!-- Misc -->
