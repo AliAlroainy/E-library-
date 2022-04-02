@@ -1,11 +1,14 @@
 <?php
 
-class Details{
-    function __construct()
-    {
-        
-        require_once "app/views/details.php";
+namespace coding\app\controllers;
+
+class Details extends Controller{
+
+    public function show (){
+        $this->view('details');
+
     }
 
+ 
 }
 ?>

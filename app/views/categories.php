@@ -1,4 +1,4 @@
-<?php include_once "app/views/components/header.php" ?>
+<?php include_once "components/header.php" ?>
 
 
    <!------------------------ slider -------------------------------------------------->
@@ -6,19 +6,19 @@
    <div class="slideshow-container">
     <div class="mySlides fade">
       <div class="numbertext">1 / 3</div>
-      <img src="app/views/assets/slid1.jpg" style="width: 100%; height: 300px;" />
+      <img src="assets/slid1.jpg" style="width: 100%; height: 300px;" />
       <div class="text">Caption Text</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">2 / 3</div>
-      <img src="app/views/assets/slid2.jpg" style="width: 100%; height: 300px;" />
+      <img src="assets/slid2.jpg" style="width: 100%; height: 300px;" />
       <div class="text">Caption Two</div>
     </div>
 
     <div class="mySlides fade">
       <div class="numbertext">3 / 3</div>
-      <img src="app/views/assets/slid3.jpg" style="width: 100%; height: 300px;" />
+      <img src="assets/slid3.jpg" style="width: 100%; height: 300px;" />
       <div class="text">Caption Three</div>
     </div>
 
@@ -55,7 +55,7 @@
         </div>
 
         <div style="width: 300px; height: 70px; border: 1px solid green; display: flex; align-items: center; justify-content: center;font-size: 2rem; color: green;">
-          <img src="app/views/assets/svg/svgexport-34.svg" width="30" height="30" style="margin-left: 5px;" />
+          <img src="assets/svg/svgexport-34.svg" width="30" height="30" style="margin-left: 5px;" />
           كتب الكترونية
         </div>
 
@@ -120,12 +120,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -152,13 +152,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -168,12 +168,12 @@
        <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -200,13 +200,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -216,12 +216,12 @@
        <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -248,13 +248,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -264,12 +264,12 @@
        <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -296,13 +296,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -312,12 +312,12 @@
        <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -344,13 +344,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -359,12 +359,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -391,13 +391,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -406,12 +406,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -438,13 +438,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -453,12 +453,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -485,13 +485,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -500,12 +500,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -532,13 +532,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -547,12 +547,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -579,13 +579,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -594,12 +594,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -626,13 +626,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -642,12 +642,12 @@
        <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -674,13 +674,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -689,12 +689,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -721,13 +721,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -736,12 +736,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -768,13 +768,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -783,12 +783,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -815,13 +815,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -830,12 +830,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -862,13 +862,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -877,12 +877,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -909,13 +909,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -924,12 +924,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -956,13 +956,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -971,12 +971,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1003,13 +1003,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1018,12 +1018,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1050,13 +1050,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1065,12 +1065,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1097,13 +1097,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1112,12 +1112,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1144,13 +1144,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1159,12 +1159,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1191,13 +1191,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1206,12 +1206,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1238,13 +1238,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1253,12 +1253,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1285,13 +1285,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1300,12 +1300,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1332,13 +1332,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1347,12 +1347,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1379,13 +1379,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1394,12 +1394,12 @@
       <div class="mainOffer-card">
         <div>
           <a href="details"
-            ><img class="mainOffer-img" src="app/views/assets/books/3.jpg"
+            ><img class="mainOffer-img" src="assets/books/3.jpg"
           /></a>
         </div>
         <div class="mainOffer-title">
           <div>
-            <img src="app/views/assets/svg/card-book.svg" width="24" height="24" />
+            <img src="assets/svg/card-book.svg" width="24" height="24" />
 
           </div>
           <h2>كتابي الكتروني</h2>
@@ -1426,13 +1426,13 @@
         
         <div class="mainOffer-icon">
           <a href="#">
-            <img src="app/views/assets/svg/star.svg" width="24" height="24" />
+            <img src="assets/svg/star.svg" width="24" height="24" />
           </a>
           <div onclick="checkCart()" style="cursor: pointer;" >
-            <img src="app/views/assets/svg/car.svg" width="30" height="30" />
+            <img src="assets/svg/car.svg" width="30" height="30" />
           </div>
           <a href="#">
-            <img src="app/views/assets/svg/card-arraw.svg" width="24" height="24" />
+            <img src="assets/svg/card-arraw.svg" width="24" height="24" />
           </a>
         </div>
       </div>
@@ -1469,5 +1469,5 @@
 
 
 
-    <?php include_once "app/views/components/footer.php" ?>
+    <?php include_once "components/footer.php" ?>
 

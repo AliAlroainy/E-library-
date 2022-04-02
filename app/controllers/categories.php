@@ -1,10 +1,16 @@
 <?php
 
-class Categories{
-    function __construct()
-    {
-        require_once "app/views/categories.php";
+
+namespace coding\app\controllers;
+
+class Categories extends Controller{
+
+    public function show (){
+        $this->view('categories');
+
     }
 
+ 
 }
+
 ?>

@@ -1,14 +1,14 @@
 <?php
 
-class Contact{
-    function __construct()
-    {
-        echo "<h1>inside contact controller constuctor</h1>";
-       
+namespace coding\app\controllers;
+
+class Contact extends Controller{
+
+    public function show (){
+        $this->view('contact');
+
     }
 
-    function index(){
-        
-    }
-
+ 
 }
+?>

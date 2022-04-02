@@ -1,19 +1,14 @@
 <?php
-require_once 'controller.php';
+
+namespace coding\app\controllers;
+
 class Home extends Controller{
 
-    function __construct()
-    {
-        // echo "<h1>inside home controller constuctor</h1>";
-       // require_once "app/views/index.php";
+    public function show (){
+        $this->view('index');
 
     }
 
-    function index(){
-
-        require_once "app/views/index.php";
-
-    }
-
+ 
 }
 ?>
