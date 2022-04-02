@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="app/views/css/style.css" />
-    <link rel="stylesheet" href="app/views/css/mainOffer.css" />
-    <link rel="stylesheet" href="app/views/css/slider.css" />
-    <link rel="stylesheet" href="app/views/css/cart.css" />
-    <link rel="stylesheet" href="app/views/css/slider.css" />
-    <link rel="stylesheet" href="app/views/css/catogres.css">
-    <link rel="stylesheet" href="app/views/css/detailes.css" />
-    <link rel="stylesheet" href="app/views/css/form.css" />
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
+    <link rel="stylesheet" href="../../../assets/css/mainOffer.css" />
+    <link rel="stylesheet" href="../../../assets/css/slider.css" />
+    <link rel="stylesheet" href="../../../assets/css/cart.css" />
+    <link rel="stylesheet" href="../../../assets/css/slider.css" />
+    <link rel="stylesheet" href="../../../assets/css/catogres.css">
+    <link rel="stylesheet" href="../../../assets/css/detailes.css" />
+    <link rel="stylesheet" href="../../../assets/css/form.css" />
 
 
     <title>BookShop</title>
@@ -41,14 +41,14 @@
             class="item"
           >
             <div>
-              <img src="app/views/assets/svg/enterAcount.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/enterAcount.svg" width="20" height="20" alt="icon" />
             </div>
             <div style="font-size: 0.8rem">ادخل لحسابك او سجل الان</div>
           </div>
 
-          <a href="index" class="item">
+          <a href="/" class="item">
             <div>
-              <img src="app/views/assets/svg/star.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/star.svg" width="20" height="20" alt="icon" />
 
             </div>
             <div>الرئيسية</div>
@@ -56,36 +56,36 @@
 
           <a href="about" class="item">
             <div>
-              <img src="app/views/assets/svg/whoisus.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/whoisus.svg" width="20" height="20" alt="icon" />
 
             </div>
             <div>من نحن</div>
           </a>
 
-          <a href="#" class="item">
+          <a href="contact" class="item">
             <div>
-              <img src="app/views/assets/svg/callus.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/callus.svg" width="20" height="20" alt="icon" />
             </div>
             <div>اتصل بنا</div>
           </a>
 
-          <a href="#" class="item">
+          <a href="help" class="item">
             <div>
-              <img src="app/views/assets/svg/help.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/help.svg" width="20" height="20" alt="icon" />
             </div>
             <div>المساعدة</div>
           </a>
 
-          <a href="#" class="item">
+          <a href="policy" class="item">
             <div>
-              <img src="app/views/assets/svg/privcey.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/privcey.svg" width="20" height="20" alt="icon" />
             </div>
             <div>سياسة الخصوصية</div>
           </a>
 
           <a href="#" class="item">
             <div>
-              <img src="app/views/assets/svg/yemen.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/yemen.svg" width="20" height="20" alt="icon" />
             </div>
             <div>اليمن Yem</div>
           </a>
@@ -93,7 +93,7 @@
           <a href="#" class="item">
             <div onclick="changeLanguage();" >English</div>
             <div>
-              <img src="app/views/assets/svg/english.svg" width="20" height="20" alt="icon" />
+              <img src="../../../assets/svg/english.svg" width="20" height="20" alt="icon" />
             </div>
           </a>
         </div>
@@ -104,7 +104,7 @@
 
           <a href="cart" class="cart">
             <div id="counter-cart" style="position: absolute;top: -5px; border-radius: 50%; left: 1px; width: 20px; height: 20px; background-color: red; color: #fff; display: flex; align-items: center; justify-content: center; visibility: hidden;">0</div>
-            <img src="app/views/assets/svg/searc-cart.svg" width="24" height="24" alt="icon"/>
+            <img src="../../../assets/svg/searc-cart.svg" width="24" height="24" alt="icon"/>
           </a>
 
           <div id="second-header" class="search">
@@ -130,9 +130,9 @@
           </div>
         </div>
         <div>
-          <a href="index" class="logo">
+          <a href="/" class="logo">
             <img
-              src="app/views/assets/home.png"
+              src="../../../assets/home.png"
               class="logg"
               height="100px"
               width="100px"
@@ -224,7 +224,7 @@
             <option>+967</option>
             <option>+966</option>
           </select>
-          <img src="app/views/assets/svg/flag.svg" width="20" height="20" style="position: absolute; top: 9px; left: -9px;"/>
+          <img src="../../../assets/svg/flag.svg" width="20" height="20" style="position: absolute; top: 9px; left: -9px;"/>
           <div style="position: absolute; right: 1px; top: 1px; font-size: 0.2rem;">رمز البلد</div>
         </div>
 

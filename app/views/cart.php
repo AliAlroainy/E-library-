@@ -1,4 +1,4 @@
-<?php include_once "app/views/components/header.php" ?>
+<?php include_once "components/header.php" ?>
 
 
 <div>
@@ -30,7 +30,7 @@
                       <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                         
                         <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
+                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
       
                           <div style="display: flex; flex-direction: column; align-items: flex-start;">
                           <h3>انترخريستوس (كتاب الكتروني)</h3>
@@ -71,7 +71,7 @@
                           <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                             
                             <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                              <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
+                              <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
           
                               <div style="display: flex; flex-direction: column; align-items: flex-start;">
                               <h3>انترخريستوس (كتاب الكتروني)</h3>
@@ -112,7 +112,7 @@
                       <div style="display: flex; flex-direction: row; justify-content: space-between; width: 100%;" >
                         
                         <div style="display: flex; flex-direction: row; justify-content: space-around;margin: 10px; align-items: flex-start;"> 
-                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="app/views/assets/books/5.jpg" width="20" height="30"/></div>
+                          <div style="display: flex; align-items: center; margin: 10px;"><img  src="assets/books/5.jpg" width="20" height="30"/></div>
       
                           <div style="display: flex; flex-direction: column; align-items: flex-start;">
                           <h3>انترخريستوس (كتاب الكتروني)</h3>
@@ -185,7 +185,7 @@
                        <h6> بالضغط على تاكيد الشراء فانت توافق <a style="text-decoration: none;" href="#">على الشروط والاحكام</a> <a style="text-decoration: none;" href="#">وسياسة الخصوصية</a></h6> 
                       </div>
                       <div>
-                     <a href="form"><button style="width: 100%;">تاكيد الشراء</button></a>  
+                     <a href="payment"><button style="width: 100%;">تاكيد الشراء</button></a>  
                       </div>
                     </div>
                   </div>
@@ -208,4 +208,4 @@
           <div class="hid" ></div>
 
   
-          <?php include_once "app/views/components/footer.php" ?>
+          <?php include_once "components/footer.php" ?>

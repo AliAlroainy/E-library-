@@ -61,7 +61,7 @@
             <hr />
             <form class="footer-form">
               <input type="email" placeholder="ادخل البريد الالكتروني" />
-              <img src="app/views/assets/svg/lock_black_24dp.svg" width="25" height="25" style="position: absolute; left: 5px; top: 23px; " />
+              <img src="../../../assets/svg/lock_black_24dp.svg" width="25" height="25" style="position: absolute; left: 5px; top: 23px; " />
               <button type="submit">اشتراك</button>
             </form>
           </di>
@@ -82,25 +82,25 @@
             "
           >
             <div>
-              <img src="app/views/assets/svg/facebook.svg" width="30" height="30" alt="facebook" />
+              <img src="../../../assets/svg/facebook.svg" width="30" height="30" alt="facebook" />
             </div>
             <div>
-              <img src="app/views/assets/svg/twiiter.svg" width="30" height="30" alt="twitter" />
+              <img src="../../../assets/svg/twiiter.svg" width="30" height="30" alt="twitter" />
             </div>
             <div>
-              <img src="app/views/assets/svg/youtuob.svg" width="30" height="30" alt="youtube" />
+              <img src="../../../assets/svg/youtuob.svg" width="30" height="30" alt="youtube" />
             </div>
             <div>
-              <img src="app/views/assets/svg/instgram.svg" width="30" height="30" alt="instagram" />
+              <img src="../../../assets/svg/instgram.svg" width="30" height="30" alt="instagram" />
             </div>
             <div>
-              <img src="app/views/assets/svg/linkedin.svg" width="30" height="30" alt="linkedin" />
+              <img src="../../../assets/svg/linkedin.svg" width="30" height="30" alt="linkedin" />
             </div>
             <div>
-              <img src="app/views/assets/svg/snapchat.svg" width="30" height="30" alt="snapchat" />
+              <img src="../../../assets/svg/snapchat.svg" width="30" height="30" alt="snapchat" />
             </div>
             <div>
-              <img src="app/views/assets/svg/tiktok.svg" width="30" height="30" alt="tiktok" />
+              <img src="../../../assets/svg/tiktok.svg" width="30" height="30" alt="tiktok" />
 
             </div>
           </div>
@@ -117,26 +117,26 @@
         </div>
         <div class="d-right">
           <div>
-           <a href="#"><img src="app/views/assets/svg/america-express.svg" width="70" height="50" alt="am-exp" /></a> 
+           <a href="#"><img src="../../../assets/svg/america-express.svg" width="70" height="50" alt="am-exp" /></a> 
 
           </div>
           <div>
-           <a href="#"><img src="app/views/assets/svg/master-card.svg" width="50" height="40" alt="mastercard" /></a> 
+           <a href="#"><img src="../../../assets/svg/master-card.svg" width="50" height="40" alt="mastercard" /></a> 
           </div>
           <div>
-           <a href="#"><img src="app/views/assets/svg/visa.svg" width="50" height="30" alt="visa" /></a> 
+           <a href="#"><img src="../../../assets/svg/visa.svg" width="50" height="30" alt="visa" /></a> 
 
           </div>
           <div>
-           <a href="#"><img src="app/views/assets/svg/mada.svg" width="70" height="20" alt="am-exp" /></a> 
+           <a href="#"><img src="../../../assets/svg/mada.svg" width="70" height="20" alt="am-exp" /></a> 
 
           </div>
           <div>
-           <a href="#"><img src="app/views/assets/svg/qataf.svg" width="70" height="50" alt="am-exp" /></a> 
+           <a href="#"><img src="../../../assets/svg/qataf.svg" width="70" height="50" alt="am-exp" /></a> 
 
           </div>
           <div>
-           <a href="#"> <img src="app/views/assets/svg/offer-pay.svg" width="70" height="40" alt="am-exp" /> </a> 
+           <a href="#"> <img src="../../../assets/svg/offer-pay.svg" width="70" height="40" alt="am-exp" /> </a> 
           </div>
         </div>
       </div>
@@ -144,12 +144,12 @@
 
 
 
-    <script src="app/views/js/search.js"></script>
-    <script src="app/views/js/script.js"></script>
-    <script src="app/views/js/mainOffer.js"></script>
-    <script src="app/views/js/slider.js"></script>
-    <script src="app/views/js/detailes.js"></script>
-    <script src="app/views/js/form.js"></script>
+    <script src="../../../assets/js/search.js"></script>
+    <script src="../../../assets/js/script.js"></script>
+    <script src="../../../assets/js/mainOffer.js"></script>
+    <script src="../../../assets/js/slider.js"></script>
+    <script src="../../../assets/js/detailes.js"></script>
+    <script src="../../../assets/js/form.js"></script>
 
 
   </body>
