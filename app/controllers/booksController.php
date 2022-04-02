@@ -4,7 +4,7 @@ namespace coding\app\controllers;
 
 use coding\app\models\Book;
 
-class BookController extends Controller{
+class BooksController extends Controller{
 
     function listAll($parameters=null){
 
