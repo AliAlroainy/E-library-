@@ -14,7 +14,7 @@ use coding\app\controllers\Policy;
 
 
 
-
+use coding\app\controllers\PublisherController;
 use coding\app\controllers\AuthorsController;
 use coding\app\controllers\BooksController;
 use coding\app\controllers\CategoriesController;
@@ -90,6 +90,14 @@ Router::get('/edit_author/{id}',[AuthorsController::class,'edit']);
 Router::get('/remove_author/{id}/{name}',[AuthorsController::class,'remove']);
 Router::post('/save_author',[AuthorsController::class,'store']);
 Router::post('/update_author',[AuthorsController::class,'update']);
+
+/** publisher routes  */
+Router::get('/Dpublisher',[PublisherController::class,'listAll']);
+Router::get('/add_publisher',[PublisherController::class,'create']);
+Router::get('/edit_publisher/{id}',[PublisherController::class,'edit']);
+Router::get('/remove_publisher/{id}/{name}',[PublisherController::class,'remove']);
+Router::post('/save_publisher',[PublisherController::class,'store']);
+Router::post('/update_publisher',[PublisherController::class,'update']);
 
 
 /** end of web routes */
