@@ -22,8 +22,8 @@ class CategoriesController extends Controller{
     }
 
     function store(){
-        print_r($_POST);
-        print_r($_FILES);
+        // print_r($_POST);
+        // print_r($_FILES);
         $category=new Category();
         
         $category->name=$_POST['category_name'];
@@ -34,6 +34,7 @@ class CategoriesController extends Controller{
         $category->is_active=$_POST['is_active'];
 
         $category->save();
+        $this->view('add');
 
     }
     function edit($params=[]){
