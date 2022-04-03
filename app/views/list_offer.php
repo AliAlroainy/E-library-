@@ -625,7 +625,7 @@
               
             </td>
           </tr>
-          <?php } ?>
+          <?php } //show all offers ?>
         </tbody>
       </table>
     </div>

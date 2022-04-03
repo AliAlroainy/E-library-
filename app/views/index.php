@@ -47,7 +47,20 @@
           <div style="color:#5E2F26 ;">دين</div> 
         </a>
         <!--      end card   -------->
+        
+         
+        <?php foreach($params as $category){?>
+         
+            <!--      start card   -------->
+        <a href="categories" class="card-dv" >
+          <div><img src="images/<?= $category['image'];?>" width="40" height="40" /> </div>
+          <div style="color: #F67828;"><?= $category['name'];?></div> 
+        </a>
+        <!--      end card   -------->
+     
+          <?php } ?>
 
+          
         <!--      start card   -------->
         <a href="categories" class="card-dv" >
           <div><img src="assets/svg/history.svg" width="40" height="40" /> </div>
@@ -141,11 +154,16 @@
 
         <img src="assets/svg/left.svg" style="cursor: pointer; height: 30px; width: 30px;" />
       </div>
+
+
+
+ <?php foreach($params as $book){?>
+    
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
             <a href="details">
-              <img class="mainOffer-img" src="assets/books/1.jpg"
+              <img class="mainOffer-img" src="images/<?= $book['image'];?>"
             /></a>
           </div>
           <div class="mainOffer-title">
@@ -156,7 +174,7 @@
           </div>
           <div class="mainOffer-deyail">
             <p style="text-align: center; margin-bottom: 10px">
-              كتاب مغامرات مارتن (كتاب الكتروني)
+            <?= $book['name'];?> (كتاب الكتروني)
             </p>
           </div>
           <div class="mainOffer-price">
@@ -192,6 +210,12 @@
         </div>
 
         <!--end card ----->
+        <?php } // show books ?>
+
+
+
+
+
 
         <!--start card ------------------>
         <div class="mainOffer-card">

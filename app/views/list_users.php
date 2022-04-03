@@ -603,7 +603,7 @@
          <?php foreach($params as $user){?>
           <tr>
             
-            <td><?= $user['user_name'];?></td>
+            <td><?= $user['name'];?></td>
             <td>
               <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $user['image'];?>">
             </td>

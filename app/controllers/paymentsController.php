@@ -2,59 +2,49 @@
 
 namespace coding\app\controllers;
 
-use coding\app\models\Book;
+use coding\app\models\Payment;
 
-class BooksController extends Controller{
+class PaymentsController extends Controller{
 
     function listAll($parameters=null){
 
         $parameters['status'];
-        $Books=new Book();
-        $allBooks=$Books->getAll();
-        //print_r($allBooks);
+        $Payments=new Payment();
+        $allPayments=$Payments->getAll();
+        //print_r($allPayments);
 
-        $this->view('list_books',$allBooks);
-
-    }
-
-    function Homey($parameters=null){
-
-      
-       // $parameters['status'];
-        $Books=new Book();
-        $allBooks=$Books->getAll();
-        //print_r($allBooks);
-      
-        $this->view('index',$allBooks);
+        $this->view('list_payment',$allPayments);
 
     }
+
+
 
     function create(){
-        $this->view('add_book');
+        $this->view('add_payment');
 
     }
 
     function store(){
         // print_r($_POST);
         // print_r($_FILES);
-        $book=new Book();
+        $payment=new Payment();
         
-        $book->name=$_POST['book_name'];
+        $payment->name=$_POST['payment_name'];
         $imageName=$this->uploadFile($_FILES['image']);
 
-        $book->image=$imageName!=null?$imageName:"default.png";
-        $book->created_by=1;
-        $book->is_active=$_POST['is_active'];
+        $payment->image=$imageName!=null?$imageName:"default.png";
+        $payment->created_by=1;
+        $payment->is_active=$_POST['is_active'];
 
-        $book->save();
+        $payment->save();
         $this->view('add');
 
     }
     function edit($params=[]){
 
-        $cat=new Book();
+        $cat=new payment();
         $result=$cat->getSingleRow($params['id']);
-        $this->view('edit_book',$result);
+        $this->view('edit_payment',$result);
         
 
     }

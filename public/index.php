@@ -11,8 +11,8 @@ use coding\app\controllers\Contact;
 use coding\app\controllers\Help;
 use coding\app\controllers\Policy;
 
-
-
+use coding\app\models\PaymentsController;
+use coding\app\models\CitiesController;
 use coding\app\controllers\UsersController;
 use coding\app\controllers\PublisherController;
 use coding\app\controllers\AuthorsController;
@@ -41,8 +41,14 @@ $system=new AppSystem($config);
 
 /** front routes  */
 Router::get('/',[Home::class,'show']);
+Router::get('/',[CategoriesController::class,'Home']);
+Router::get('/',[BooksController::class,'Homey']);
+
+
 Router::get('/cart',[Cart::class,'show']);
 Router::get('/categories',[Categories::class,'show']);
+Router::get('/categories',[CategoriesController::class,'cate']);
+
 Router::get('/details',[Details::class,'show']);
 Router::get('/about',[About::class,'show']);
 Router::get('/payment',[Form::class,'show']);
@@ -106,6 +112,22 @@ Router::get('/remove_user/{id}/{name}',[UsersController::class,'remove']);
 Router::post('/save_user',[UsersController::class,'store']);
 Router::post('/update_user',[UsersController::class,'update']);
 
+
+/** cities routes  */
+Router::get('/Dcities',[CitiesController::class,'listAll']);
+Router::get('/add_cities',[CitiesController::class,'create']);
+Router::get('/edit_cities/{id}',[CitiesController::class,'edit']);
+Router::get('/remove_cities/{id}/{name}',[CitiesController::class,'remove']);
+Router::post('/save_cities',[CitiesController::class,'store']);
+Router::post('/update_cities',[CitiesController::class,'update']);
+
+/** Payment routes  */
+Router::get('/Dpayment',[PaymentsController::class,'listAll']);
+Router::get('/add_payment',[PaymentsController::class,'create']);
+Router::get('/edit_payment/{id}',[PaymentsController::class,'edit']);
+Router::get('/remove_payment/{id}/{name}',[PaymentsController::class,'remove']);
+Router::post('/save_payment',[PaymentsController::class,'store']);
+Router::post('/update_payment',[PaymentsController::class,'update']);
 
 /** end of web routes */
 

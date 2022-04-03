@@ -576,7 +576,7 @@
           <div class="container-xxl flex-grow-1 container-p-y">
 
 
-            <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> المؤلفين</h4>
+            <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Forms/</span> Vertical Layouts</h4>
 
            
 
@@ -590,7 +590,8 @@
       <table class="table table-bordered">
         <thead>
           <tr>
-            <th>اسم الكاتب</th>
+            <th>اسم الدفع</th>
+            <th>بطاقة الدفع</th>
             <th>الحالة</th>
             
             <th>العمليات</th>
@@ -599,13 +600,15 @@
         <tbody>
        
          
-         <?php foreach($params as $author){?>
+         <?php foreach($params as $payment){?>
           <tr>
             
-            <td><?= $author['name'];?></td>
-           
+            <td><?= $payment['name'];?></td>
             <td>
-            <?php if($author['is_active']==1) {?>    
+              <img class="img-fluid rounded" height="150px" width="150px" src="images/<?= $payment['image'];?>">
+            </td>
+            <td>
+            <?php if($payment['is_active']==1) {?>    
             <span class="badge bg-label-success me-1">مفعل</span>
             <?php }
             else {?>
@@ -613,7 +616,7 @@
             <?php } ?>
             </td>
             <td>
-            <a href="/edit_author/<?php echo $author['id'];?>" class="btn btn-icon btn-outline-dribbble">
+            <a href="/edit_payment/<?php echo $payment['id'];?>" class="btn btn-icon btn-outline-dribbble">
                 <i class="tf-icons bx bx-edit-alt me-1"></i>
               </a>
               <button type="button" class="btn btn-icon btn-outline-dribbble">
@@ -622,7 +625,7 @@
               
             </td>
           </tr>
-          <?php } //show all authors ?>
+          <?php } ?>
         </tbody>
       </table>
     </div>

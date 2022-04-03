@@ -115,7 +115,67 @@
           <li class="animals">
         <div style="display: flex; flex-grow: 1; flex-wrap: wrap; gap: 10px; width: 100%; padding-right: 20px; ">
 
-           <!--------------------------start card ---------------->
+        
+        
+ <?php foreach($params as $book){?>
+    
+    <!--------------------------start card ---------------->
+    <div class="mainOffer-card">
+      <div>
+        <a href="details">
+          <img class="mainOffer-img" src="images/<?= $book['image'];?>"
+        /></a>
+      </div>
+      <div class="mainOffer-title">
+        <div>
+         <img src="assets/svg/card-book.svg" width="24" height="24" />
+        </div>
+        <h2>كتابي الكتروني</h2>
+      </div>
+      <div class="mainOffer-deyail">
+        <p style="text-align: center; margin-bottom: 10px">
+        <?= $book['name'];?> (كتاب الكتروني)
+        </p>
+      </div>
+      <div class="mainOffer-price">
+        <h1 style="color: red">
+          49<span style="font-size: 0.5rem">ر.س</span>
+        </h1>
+        <p style="font-size: 0.7rem; color: rgba(128, 128, 128, 0.664)">
+          شامل الضريبة
+        </p>
+      </div>
+      <div class="mainOffer-another">
+        <p>صيغ اخرى :</p>
+        <a href="#" style="text-decoration: none"
+          ><p style="color: blue; font-weight: bold">كتاب مطبوع</p></a
+        >
+      </div>
+      <div
+        id="demo"
+        style="color: rgb(5, 224, 5)"
+        class="mainOffer-timer"
+      ></div>
+      <div class="mainOffer-icon">
+        <a href="#">
+          <img src="assets/svg/star.svg" width="24" height="24" />
+        </a>
+        <div onclick="checkCart()" style="cursor: pointer;" >
+          <img src="assets/svg/car.svg" width="30" height="30" />
+        </div>
+        <a href="#">
+          <img src="assets/svg/card-arraw.svg" width="24" height="24" />
+        </a>
+      </div>
+    </div>
+
+    <!--end card ----->
+    <?php } ?>
+
+
+        
+        
+        <!--------------------------start card ---------------->
      
       <div class="mainOffer-card">
         <div>
