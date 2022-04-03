@@ -11,7 +11,7 @@ use coding\app\controllers\Contact;
 use coding\app\controllers\Help;
 use coding\app\controllers\Policy;
 
-
+use coding\app\models\PaymentsController;
 use coding\app\models\CitiesController;
 use coding\app\controllers\UsersController;
 use coding\app\controllers\PublisherController;
@@ -120,6 +120,14 @@ Router::get('/edit_cities/{id}',[CitiesController::class,'edit']);
 Router::get('/remove_cities/{id}/{name}',[CitiesController::class,'remove']);
 Router::post('/save_cities',[CitiesController::class,'store']);
 Router::post('/update_cities',[CitiesController::class,'update']);
+
+/** Payment routes  */
+Router::get('/Dpayment',[PaymentsController::class,'listAll']);
+Router::get('/add_payment',[PaymentsController::class,'create']);
+Router::get('/edit_payment/{id}',[PaymentsController::class,'edit']);
+Router::get('/remove_payment/{id}/{name}',[PaymentsController::class,'remove']);
+Router::post('/save_payment',[PaymentsController::class,'store']);
+Router::post('/update_payment',[PaymentsController::class,'update']);
 
 /** end of web routes */
 

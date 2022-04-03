@@ -194,12 +194,12 @@
    <!-- Misc -->
    <li class="menu-header small text-uppercase"><span class="menu-header-text">ادارة  الدفع</span></li>
    <li class="menu-item">
-  <a href="#" class="menu-link">
+  <a href="add_payment" class="menu-link">
     <div>اضافة طريقة </div>
   </a>
 </li>
 <li class="menu-item">
-  <a href="#" class="menu-link">
+  <a href="Dpayment" class="menu-link">
     <div>عرض الطرق</div>
   </a>
 </li>
