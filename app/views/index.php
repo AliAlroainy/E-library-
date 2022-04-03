@@ -47,7 +47,20 @@
           <div style="color:#5E2F26 ;">دين</div> 
         </a>
         <!--      end card   -------->
+        
+         
+        <?php foreach($params as $category){?>
+         
+            <!--      start card   -------->
+        <a href="categories" class="card-dv" >
+          <div><img src="images/<?= $category['image'];?>" width="40" height="40" /> </div>
+          <div style="color: #F67828;"><?= $category['name'];?></div> 
+        </a>
+        <!--      end card   -------->
+     
+          <?php } ?>
 
+          
         <!--      start card   -------->
         <a href="categories" class="card-dv" >
           <div><img src="assets/svg/history.svg" width="40" height="40" /> </div>

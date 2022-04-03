@@ -41,6 +41,8 @@ $system=new AppSystem($config);
 
 /** front routes  */
 Router::get('/',[Home::class,'show']);
+Router::get('/',[CategoriesController::class,'Home']);
+
 Router::get('/cart',[Cart::class,'show']);
 Router::get('/categories',[Categories::class,'show']);
 Router::get('/details',[Details::class,'show']);

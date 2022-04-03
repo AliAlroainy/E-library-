@@ -14,8 +14,22 @@ class CategoriesController extends Controller{
         //print_r($allCategories);
 
         $this->view('list_categories',$allCategories);
+        $this->view('index',$allCategories);
 
     }
+    
+    function Home($parameters=null){
+
+      
+        $categories=new Category();
+        $allCategories=$categories->getAll();
+        //print_r($allCategories);
+
+      
+        $this->view('index',$allCategories);
+
+    }
+
     function create(){
         $this->view('add_category');
 
