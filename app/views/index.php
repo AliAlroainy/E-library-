@@ -210,7 +210,7 @@
         </div>
 
         <!--end card ----->
-        <?php } ?>
+        <?php } // show books ?>
 
 
 
