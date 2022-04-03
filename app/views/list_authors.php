@@ -622,7 +622,7 @@
               
             </td>
           </tr>
-          <?php } ?>
+          <?php } //show all authors ?>
         </tbody>
       </table>
     </div>
