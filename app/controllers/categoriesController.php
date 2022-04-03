@@ -30,6 +30,18 @@ class CategoriesController extends Controller{
 
     }
 
+    function cate($parameters=null){
+
+      
+        $categories=new Category();
+        $allCategories=$categories->getAll();
+        //print_r($allCategories);
+
+      
+        $this->view('categories',$allCategories);
+
+    }
+
     function create(){
         $this->view('add_category');
 

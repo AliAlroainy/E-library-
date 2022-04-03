@@ -154,11 +154,16 @@
 
         <img src="assets/svg/left.svg" style="cursor: pointer; height: 30px; width: 30px;" />
       </div>
+
+
+
+ <?php foreach($params as $book){?>
+    
         <!--------------------------start card ---------------->
         <div class="mainOffer-card">
           <div>
             <a href="details">
-              <img class="mainOffer-img" src="assets/books/1.jpg"
+              <img class="mainOffer-img" src="images/<?= $book['image'];?>"
             /></a>
           </div>
           <div class="mainOffer-title">
@@ -169,7 +174,7 @@
           </div>
           <div class="mainOffer-deyail">
             <p style="text-align: center; margin-bottom: 10px">
-              كتاب مغامرات مارتن (كتاب الكتروني)
+            <?= $book['name'];?> (كتاب الكتروني)
             </p>
           </div>
           <div class="mainOffer-price">
@@ -205,6 +210,12 @@
         </div>
 
         <!--end card ----->
+        <?php } ?>
+
+
+
+
+
 
         <!--start card ------------------>
         <div class="mainOffer-card">

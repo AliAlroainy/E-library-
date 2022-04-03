@@ -16,6 +16,19 @@ class BooksController extends Controller{
         $this->view('list_books',$allBooks);
 
     }
+
+    function Homey($parameters=null){
+
+      
+       // $parameters['status'];
+        $Books=new Book();
+        $allBooks=$Books->getAll();
+        //print_r($allBooks);
+      
+        $this->view('index',$allBooks);
+
+    }
+
     function create(){
         $this->view('add_book');
 
